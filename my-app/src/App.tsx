@@ -1,7 +1,13 @@
+import Cabecalho from './components/Cabecalho'
+import Conteudo from './components/Conteudo'
+import Rodape from './components/Rodape'
+
 function App() {
   return (
     <>
-      <h1>Minha aplicação React</h1>
+      <Cabecalho />
+      <Conteudo />
+      <Rodape />
     </>
   )
 }
